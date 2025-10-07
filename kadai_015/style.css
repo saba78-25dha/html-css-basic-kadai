@@ -3,8 +3,8 @@ body{
   text-align: center;
 }
 
-h1{
-  font: size 20px;
+html{
+  font-size 20px;
 }
 .text-blue{
   color: skyblue;
@@ -30,3 +30,4 @@ h1{
   font-style: normal;
 
 }
+
