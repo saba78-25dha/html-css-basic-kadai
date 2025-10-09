@@ -20,10 +20,6 @@ main {
   padding: 10px;
   margin: 10px;
 }
-img {
-  width: 300px;
-  height: auto;
-}
 #parent {
   display: flex;
   justify-content: space-between;
@@ -35,7 +31,9 @@ img {
   padding: 10px 15px 10px 15px;
   margin: 20px 0px 20px 0px;
 }
-.contents img {
+img {
+  width: 300px;
+  height: auto;
   margin: 10px 0px 10px 0px;
   width: 70%;
 }
@@ -48,7 +46,7 @@ color: rgb(239, 111, 139);
   text-align: center;
 border-bottom: dotted 3px rgb(236, 122, 122);
  }
-div p:nth-child(3)::first-letter {
+.content p:nth-of-type(2)::first-letter {
   color: rgb(97, 206, 249);
   font-weight: bold;
 }
@@ -57,7 +55,7 @@ a {
   color: rgb(255, 255, 255);
 }
 a:visited {
-  color: rgb(255, 255, 255);
+  color: rgb(193, 234, 251);
 }
 a:hover {
   color: rgb(245, 178, 168);
